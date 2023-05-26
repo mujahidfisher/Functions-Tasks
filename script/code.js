@@ -1,22 +1,22 @@
-function greet(para1) {
-    para1 = "Hello"
+function greet(para1 = "Hello") {
+    console.log(para1);
 }
 
-console.log(para1);
+greet()
 
-// function multiply(numb1, numb2) {
-//     numb1 = 5,
-//     numb2 = 4
-// }
+function multiply(numb1, numb2) {
+    numb1 = 5,
+    numb2 = 4
+    let result = numb1 * numb2 
+    console.log(result);
+}
 
-// let result = numb1 * numb2
+multiply()
 
-// console.log(result);
+function tableOfFive(water) {
+    return water * 5
+    
+}
 
-// function tableOfFive(water) {
-//     water = 1 * 5
-// }
+console.log(tableOfFive(2));
 
-// let water = 1
-
-// console.log(water);
